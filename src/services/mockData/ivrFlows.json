@@ -1,0 +1,123 @@
+[
+  {
+    "Id": 1,
+    "name": "Main IVR Flow",
+    "description": "Primary customer service flow",
+    "version": "2.1",
+    "status": "Active",
+    "lastModified": "2024-01-15",
+    "nodes": [
+      {
+        "id": "node-1",
+        "type": "welcome",
+        "text": "Welcome to CallCenter Pro. Your call is important to us.",
+        "position": { "x": 100, "y": 50 },
+        "connections": ["node-2"]
+      },
+      {
+        "id": "node-2",
+        "type": "menu",
+        "text": "Press 1 for Sales, 2 for Support, 3 for Billing, 0 for Operator",
+        "position": { "x": 100, "y": 150 },
+        "connections": ["node-3", "node-4", "node-5", "node-6"]
+      },
+      {
+        "id": "node-3",
+        "type": "queue",
+        "text": "Transferring to Sales queue",
+        "position": { "x": 50, "y": 250 },
+        "connections": []
+      },
+      {
+        "id": "node-4",
+        "type": "queue",
+        "text": "Transferring to Support queue",
+        "position": { "x": 150, "y": 250 },
+        "connections": []
+      },
+      {
+        "id": "node-5",
+        "type": "queue",
+        "text": "Transferring to Billing queue",
+        "position": { "x": 250, "y": 250 },
+        "connections": []
+      },
+      {
+        "id": "node-6",
+        "type": "queue",
+        "text": "Transferring to Operator",
+        "position": { "x": 350, "y": 250 },
+        "connections": []
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "After Hours Flow",
+    "description": "Flow for calls outside business hours",
+    "version": "1.0",
+    "status": "Draft",
+    "lastModified": "2024-01-10",
+    "nodes": [
+      {
+        "id": "node-7",
+        "type": "welcome",
+        "text": "Thank you for calling. Our office is currently closed.",
+        "position": { "x": 100, "y": 50 },
+        "connections": ["node-8"]
+      },
+      {
+        "id": "node-8",
+        "type": "voicemail",
+        "text": "Please leave a message after the tone.",
+        "position": { "x": 100, "y": 150 },
+        "connections": []
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Spanish Language Flow",
+    "description": "Spanish language support flow",
+    "version": "1.5",
+    "status": "Active",
+    "lastModified": "2024-01-12",
+    "nodes": [
+      {
+        "id": "node-9",
+        "type": "welcome",
+        "text": "Bienvenido a CallCenter Pro. Su llamada es importante para nosotros.",
+        "position": { "x": 100, "y": 50 },
+        "connections": ["node-10"]
+      },
+      {
+        "id": "node-10",
+        "type": "menu",
+        "text": "Presione 1 para Ventas, 2 para Soporte, 3 para Facturación",
+        "position": { "x": 100, "y": 150 },
+        "connections": ["node-11", "node-12", "node-13"]
+      },
+      {
+        "id": "node-11",
+        "type": "queue",
+        "text": "Transfiriendo a cola de Ventas",
+        "position": { "x": 50, "y": 250 },
+        "connections": []
+      },
+      {
+        "id": "node-12",
+        "type": "queue",
+        "text": "Transfiriendo a cola de Soporte",
+        "position": { "x": 150, "y": 250 },
+        "connections": []
+      },
+      {
+        "id": "node-13",
+        "type": "queue",
+        "text": "Transfiriendo a cola de Facturación",
+        "position": { "x": 250, "y": 250 },
+        "connections": []
+      }
+    ]
+  }
+]

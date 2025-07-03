@@ -1,0 +1,21 @@
+{
+  "systemName": "CallCenter Pro",
+  "timeZone": "America/New_York",
+  "defaultLanguage": "en",
+  "enableRecording": true,
+  "defaultSLA": 30,
+  "maxQueueSize": 100,
+  "overflowAction": "voicemail",
+  "autoAnswerDelay": 2,
+  "wrapUpTime": 30,
+  "enablePresence": true,
+  "enableSkillRouting": true,
+  "salesforceApiKey": "sk_test_****",
+  "salesforceUrl": "https://company.salesforce.com",
+  "hubspotApiKey": "",
+  "queueAlerts": true,
+  "agentStatusAlerts": false,
+  "systemErrorAlerts": true,
+  "dailyReports": true,
+  "notificationEmail": "admin@company.com"
+}

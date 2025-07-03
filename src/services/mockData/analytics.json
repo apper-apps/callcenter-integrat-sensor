@@ -1,0 +1,36 @@
+{
+  "totalCalls": 324,
+  "avgWaitTime": 28,
+  "slaCompliance": 94,
+  "customerSatisfaction": 4.6,
+  "avgHandleTime": 168,
+  "firstCallResolution": 87,
+  "abandonmentRate": 3.2,
+  "peakUtilization": 78,
+  "callVolume": {
+    "categories": ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"],
+    "series": [
+      {
+        "name": "Incoming Calls",
+        "data": [45, 52, 38, 41, 49, 56, 43, 39, 35]
+      },
+      {
+        "name": "Answered Calls",
+        "data": [42, 48, 35, 38, 46, 52, 40, 36, 32]
+      }
+    ]
+  },
+  "agentPerformance": {
+    "categories": ["Sarah J.", "Michael C.", "Emily R.", "David T.", "Jennifer W.", "Lisa M.", "James W."],
+    "series": [
+      {
+        "name": "Calls Handled",
+        "data": [23, 18, 31, 19, 27, 22, 15]
+      }
+    ]
+  },
+  "queueMetrics": {
+    "labels": ["Customer Support", "Technical Support", "Sales", "Billing"],
+    "series": [45, 28, 18, 9]
+  }
+}

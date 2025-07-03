@@ -1,0 +1,107 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "id": "AGT001",
+    "status": "available",
+    "currentCall": null,
+    "skills": ["Sales", "Support", "Spanish"],
+    "metrics": {
+      "callsToday": 23,
+      "avgHandleTime": 142
+    }
+  },
+  {
+    "Id": 2,
+    "name": "Michael Chen",
+    "id": "AGT002",
+    "status": "busy",
+    "currentCall": {
+      "phoneNumber": "+1 (555) 123-4567",
+      "startTime": 1640995200000
+    },
+    "skills": ["Technical Support", "Billing"],
+    "metrics": {
+      "callsToday": 18,
+      "avgHandleTime": 189
+    }
+  },
+  {
+    "Id": 3,
+    "name": "Emily Rodriguez",
+    "id": "AGT003",
+    "status": "break",
+    "currentCall": null,
+    "skills": ["Sales", "Customer Service"],
+    "metrics": {
+      "callsToday": 31,
+      "avgHandleTime": 156
+    }
+  },
+  {
+    "Id": 4,
+    "name": "David Thompson",
+    "id": "AGT004",
+    "status": "available",
+    "currentCall": null,
+    "skills": ["Support", "Technical", "French"],
+    "metrics": {
+      "callsToday": 19,
+      "avgHandleTime": 201
+    }
+  },
+  {
+    "Id": 5,
+    "name": "Jennifer Wu",
+    "id": "AGT005",
+    "status": "busy",
+    "currentCall": {
+      "phoneNumber": "+1 (555) 987-6543",
+      "startTime": 1640995800000
+    },
+    "skills": ["Billing", "Account Management"],
+    "metrics": {
+      "callsToday": 27,
+      "avgHandleTime": 134
+    }
+  },
+  {
+    "Id": 6,
+    "name": "Robert Anderson",
+    "id": "AGT006",
+    "status": "offline",
+    "currentCall": null,
+    "skills": ["Sales", "Lead Generation"],
+    "metrics": {
+      "callsToday": 0,
+      "avgHandleTime": 0
+    }
+  },
+  {
+    "Id": 7,
+    "name": "Lisa Martinez",
+    "id": "AGT007",
+    "status": "available",
+    "currentCall": null,
+    "skills": ["Customer Service", "Returns"],
+    "metrics": {
+      "callsToday": 22,
+      "avgHandleTime": 167
+    }
+  },
+  {
+    "Id": 8,
+    "name": "James Wilson",
+    "id": "AGT008",
+    "status": "busy",
+    "currentCall": {
+      "phoneNumber": "+1 (555) 456-7890",
+      "startTime": 1640996400000
+    },
+    "skills": ["Technical Support", "Escalations"],
+    "metrics": {
+      "callsToday": 15,
+      "avgHandleTime": 245
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "name": "Customer Support",
+    "id": "QUE001",
+    "calls": [
+      {
+        "id": "CALL001",
+        "phoneNumber": "+1 (555) 111-2222",
+        "queueTime": 45,
+        "status": "waiting",
+        "priority": "medium"
+      },
+      {
+        "id": "CALL002",
+        "phoneNumber": "+1 (555) 333-4444",
+        "queueTime": 23,
+        "status": "waiting",
+        "priority": "low"
+      },
+      {
+        "id": "CALL003",
+        "phoneNumber": "+1 (555) 555-6666",
+        "queueTime": 67,
+        "status": "waiting",
+        "priority": "high"
+      }
+    ],
+    "avgWaitTime": 32,
+    "slaTarget": 30
+  },
+  {
+    "Id": 2,
+    "name": "Technical Support",
+    "id": "QUE002",
+    "calls": [
+      {
+        "id": "CALL004",
+        "phoneNumber": "+1 (555) 777-8888",
+        "queueTime": 89,
+        "status": "waiting",
+        "priority": "high"
+      },
+      {
+        "id": "CALL005",
+        "phoneNumber": "+1 (555) 999-0000",
+        "queueTime": 12,
+        "status": "waiting",
+        "priority": "medium"
+      }
+    ],
+    "avgWaitTime": 51,
+    "slaTarget": 45
+  },
+  {
+    "Id": 3,
+    "name": "Sales",
+    "id": "QUE003",
+    "calls": [
+      {
+        "id": "CALL006",
+        "phoneNumber": "+1 (555) 123-9876",
+        "queueTime": 15,
+        "status": "waiting",
+        "priority": "low"
+      }
+    ],
+    "avgWaitTime": 18,
+    "slaTarget": 20
+  },
+  {
+    "Id": 4,
+    "name": "Billing",
+    "id": "QUE004",
+    "calls": [],
+    "avgWaitTime": 0,
+    "slaTarget": 25
+  }
+]
