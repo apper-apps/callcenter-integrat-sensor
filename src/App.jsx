@@ -10,10 +10,10 @@ import Settings from '@/components/pages/Settings'
 import InboxPanel from '@/components/pages/InboxPanel'
 
 function App() {
-  return (
+return (
     <div className="min-h-screen bg-surface">
       <Layout>
-<Routes>
+        <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/agents" element={<AgentManagement />} />
           <Route path="/queues" element={<QueueMonitor />} />
