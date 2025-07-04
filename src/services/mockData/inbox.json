@@ -1,0 +1,193 @@
+[
+  {
+    "Id": 1,
+    "channel": "email",
+    "subject": "Billing inquiry - Account #12345",
+    "contact": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "phone": "+1-555-0123"
+    },
+    "status": "open",
+    "priority": "high",
+    "assignedAgent": {
+      "id": "agent-1",
+      "name": "Michael Chen"
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "lastActivity": "2024-01-15T14:45:00Z",
+    "unreadCount": 2,
+    "messages": [
+      {
+        "sender": "customer",
+        "content": "I have a question about my recent bill. There seems to be an unexpected charge of $49.99 that I don't recognize.",
+        "timestamp": "2024-01-15T10:30:00Z"
+      },
+      {
+        "sender": "agent",
+        "content": "Thank you for reaching out. I'll be happy to help you with your billing inquiry. Let me review your account details.",
+        "timestamp": "2024-01-15T11:15:00Z"
+      },
+      {
+        "sender": "customer",
+        "content": "Thank you. I really need this resolved quickly as it's affecting my budget planning.",
+        "timestamp": "2024-01-15T14:45:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "channel": "chat",
+    "subject": "Technical support - Login issues",
+    "contact": {
+      "name": "David Rodriguez",
+      "email": "d.rodriguez@company.com",
+      "phone": "+1-555-0456"
+    },
+    "status": "pending",
+    "priority": "medium",
+    "assignedAgent": null,
+    "createdAt": "2024-01-15T09:15:00Z",
+    "lastActivity": "2024-01-15T09:45:00Z",
+    "unreadCount": 1,
+    "messages": [
+      {
+        "sender": "customer",
+        "content": "I'm having trouble logging into my account. It says my password is incorrect but I'm sure it's right.",
+        "timestamp": "2024-01-15T09:15:00Z"
+      },
+      {
+        "sender": "customer",
+        "content": "I've tried resetting it twice but still can't get in. Can someone help?",
+        "timestamp": "2024-01-15T09:45:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "channel": "sms",
+    "subject": "Order status inquiry",
+    "contact": {
+      "name": "Emma Wilson",
+      "email": "emma.w@email.com",
+      "phone": "+1-555-0789"
+    },
+    "status": "open",
+    "priority": "low",
+    "assignedAgent": {
+      "id": "agent-2",
+      "name": "Lisa Thompson"
+    },
+    "createdAt": "2024-01-15T08:00:00Z",
+    "lastActivity": "2024-01-15T13:20:00Z",
+    "unreadCount": 0,
+    "messages": [
+      {
+        "sender": "customer",
+        "content": "Hi, when will my order #ORD-12345 be shipped?",
+        "timestamp": "2024-01-15T08:00:00Z"
+      },
+      {
+        "sender": "agent",
+        "content": "Hello Emma! Your order is currently being prepared and will ship within 2-3 business days. You'll receive a tracking number once it's dispatched.",
+        "timestamp": "2024-01-15T13:20:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "channel": "voice",
+    "subject": "Voice Call - Customer complaint",
+    "contact": {
+      "name": "Robert Martinez",
+      "email": "r.martinez@example.org",
+      "phone": "+1-555-0321"
+    },
+    "status": "closed",
+    "priority": "high",
+    "assignedAgent": {
+      "id": "agent-3",
+      "name": "James Wilson"
+    },
+    "createdAt": "2024-01-15T07:30:00Z",
+    "lastActivity": "2024-01-15T08:15:00Z",
+    "unreadCount": 0,
+    "callDuration": "00:12:45",
+    "messages": [
+      {
+        "sender": "system",
+        "content": "Call initiated - Customer complaint regarding service interruption",
+        "timestamp": "2024-01-15T07:30:00Z"
+      },
+      {
+        "sender": "agent",
+        "content": "Call summary: Customer experienced 3-hour service outage. Provided compensation and escalated to technical team for root cause analysis.",
+        "timestamp": "2024-01-15T08:15:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "channel": "email",
+    "subject": "Product return request",
+    "contact": {
+      "name": "Jennifer Lee",
+      "email": "j.lee@webmail.com",
+      "phone": "+1-555-0654"
+    },
+    "status": "pending",
+    "priority": "medium",
+    "assignedAgent": null,
+    "createdAt": "2024-01-15T06:45:00Z",
+    "lastActivity": "2024-01-15T12:30:00Z",
+    "unreadCount": 1,
+    "messages": [
+      {
+        "sender": "customer",
+        "content": "I need to return the wireless headphones I purchased last week. They're not working properly - the left earpiece has no sound.",
+        "timestamp": "2024-01-15T06:45:00Z"
+      },
+      {
+        "sender": "customer",
+        "content": "I have the original receipt and packaging. What's the process for returning this item?",
+        "timestamp": "2024-01-15T12:30:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "channel": "chat",
+    "subject": "Account upgrade consultation",
+    "contact": {
+      "name": "Michael Brown",
+      "email": "m.brown@business.com",
+      "phone": "+1-555-0987"
+    },
+    "status": "open",
+    "priority": "low",
+    "assignedAgent": {
+      "id": "agent-1",
+      "name": "Michael Chen"
+    },
+    "createdAt": "2024-01-15T11:00:00Z",
+    "lastActivity": "2024-01-15T15:00:00Z",
+    "unreadCount": 1,
+    "messages": [
+      {
+        "sender": "customer",
+        "content": "I'm interested in upgrading to a premium account. What are the benefits?",
+        "timestamp": "2024-01-15T11:00:00Z"
+      },
+      {
+        "sender": "agent",
+        "content": "Great question! Premium accounts include priority support, advanced analytics, and unlimited storage. Would you like me to walk you through the features?",
+        "timestamp": "2024-01-15T14:30:00Z"
+      },
+      {
+        "sender": "customer",
+        "content": "Yes, please! I'm particularly interested in the analytics features.",
+        "timestamp": "2024-01-15T15:00:00Z"
+      }
+    ]
+  }
+]

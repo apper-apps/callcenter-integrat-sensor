@@ -8,10 +8,11 @@ const Layout = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
 
-  const navigation = [
+const navigation = [
     { name: 'Dashboard', href: '/', icon: 'BarChart3' },
     { name: 'Agents', href: '/agents', icon: 'Users' },
     { name: 'Queues', href: '/queues', icon: 'Phone' },
+    { name: 'Inbox', href: '/inbox', icon: 'Mail' },
     { name: 'Analytics', href: '/analytics', icon: 'TrendingUp' },
     { name: 'IVR Designer', href: '/ivr', icon: 'GitBranch' },
     { name: 'Settings', href: '/settings', icon: 'Settings' }
