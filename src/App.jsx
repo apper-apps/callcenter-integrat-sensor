@@ -8,6 +8,7 @@ import Analytics from '@/components/pages/Analytics'
 import IVRDesigner from '@/components/pages/IVRDesigner'
 import Settings from '@/components/pages/Settings'
 import InboxPanel from '@/components/pages/InboxPanel'
+import AIAgent from '@/components/pages/AIAgent'
 
 function App() {
 return (
@@ -16,10 +17,11 @@ return (
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/agents" element={<AgentManagement />} />
-          <Route path="/queues" element={<QueueMonitor />} />
+<Route path="/queues" element={<QueueMonitor />} />
           <Route path="/inbox" element={<InboxPanel />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/ivr" element={<IVRDesigner />} />
+          <Route path="/ai-agent" element={<AIAgent />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </Layout>

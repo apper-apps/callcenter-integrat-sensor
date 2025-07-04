@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import ApperIcon from '@/components/ApperIcon'
-import Button from '@/components/atoms/Button'
+import React, { useState } from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import AIWidget from "@/components/organisms/AIWidget";
+import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
 
 const Layout = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -15,6 +16,7 @@ const navigation = [
     { name: 'Inbox', href: '/inbox', icon: 'Mail' },
     { name: 'Analytics', href: '/analytics', icon: 'TrendingUp' },
     { name: 'IVR Designer', href: '/ivr', icon: 'GitBranch' },
+    { name: 'AI Assistant', href: '/ai-agent', icon: 'Bot' },
     { name: 'Settings', href: '/settings', icon: 'Settings' }
   ]
 
@@ -109,7 +111,7 @@ const navigation = [
           </div>
         </div>
 
-        {/* Page content */}
+{/* Page content */}
         <main className="min-h-screen">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -120,6 +122,9 @@ const navigation = [
           </motion.div>
         </main>
       </div>
+      
+      {/* AI Widget - Floating Assistant */}
+      <AIWidget />
     </div>
   )
 }
